@@ -1,9 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-route',
-  template: '<h1>My app</h1>'
-
+  selector: 'nw-app',
+  templateUrl: './app.component.html',
+  styles: [`
+   h1 {color: #ffffff;}
+  .description {
+    font-style: italic;
+    color: red;
+  }
+  `]
 })
 export class AppComponent {
 
